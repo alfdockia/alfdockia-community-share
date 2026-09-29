@@ -11,7 +11,7 @@
                 <name>AlfDockia IA-Search</name>
                 <description>Servicio Python de busqueda semantica con OpenAI embeddings y AlfDockia.</description>
                 <connector-id>http</connector-id>
-                <endpoint-url>http://alfresco-qdrant-search:8084</endpoint-url>
+                <endpoint-url>http://alfdockia-community-search-ia:8084</endpoint-url>
                 <identity>none</identity>
             </endpoint>
         </remote>
