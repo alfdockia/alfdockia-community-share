@@ -37,7 +37,7 @@
         <alfresco.platform.version>26.1.0</alfresco.platform.version>
         <alfresco.platform.docker.user>alfresco</alfresco.platform.docker.user>
         <alfresco.share.version>26.1.0.45</alfresco.share.version>
-        <alfresco.share.docker.version>26.1.0</alfresco.share.docker.version>
+        <alfresco.share.docker.version>25.2.0</alfresco.share.docker.version>
 
         <!-- Docker images -->
         <docker.acs.image>alfresco/alfresco-content-repository-community</docker.acs.image>
