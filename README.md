@@ -94,7 +94,9 @@ Share queda disponible, por defecto, en `http://localhost:8180/share`.
 ## Documentación
 
 - [Arquitectura](docs/architecture.md)
+- [Desarrollo](docs/development.md)
 - [API JavaScript](docs/javascript-api.md)
+- [Pruebas y verificación](docs/testing.md)
 - [Webscripts](docs/webscripts.md)
 - [Configuración](docs/configuration.md)
 - [Licencia y copyright](docs/licensing.md)
