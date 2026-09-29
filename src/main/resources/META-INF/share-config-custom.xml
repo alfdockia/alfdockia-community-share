@@ -1,0 +1,41 @@
+<!--
+  SPDX-FileCopyrightText: 2026 AIgen Technologies S.L.
+  SPDX-License-Identifier: AGPL-3.0-only
+-->
+<alfresco-config>
+
+    <config evaluator="string-compare" condition="Remote">
+        <remote>
+            <endpoint>
+                <id>alfdockia-community-share-search</id>
+                <name>AlfDockia IA-Search</name>
+                <description>Servicio Python de busqueda semantica con OpenAI embeddings y AlfDockia.</description>
+                <connector-id>http</connector-id>
+                <endpoint-url>http://alfresco-qdrant-search:8084</endpoint-url>
+                <identity>none</identity>
+            </endpoint>
+        </remote>
+    </config>
+
+    <config evaluator="string-compare" condition="AlfDockiaCommunityShare">
+        <alfdockia-community-share>
+            <enabled>true</enabled>
+            <language>IA-Search</language>
+            <search-endpoint-id>alfdockia-community-share-search</search-endpoint-id>
+            <search-path>/search</search-path>
+            <default-max-items>25</default-max-items>
+            <max-items-limit>100</max-items-limit>
+        </alfdockia-community-share>
+    </config>
+
+    <config evaluator="string-compare" condition="AdvancedSearch">
+        <advanced-search>
+            <forms>
+                <form id="alfdockia-community-share-search"
+                      labelId="alfdockia-community-share.advanced-search.search.label"
+                      descriptionId="alfdockia-community-share.advanced-search.search.description">alfdockia-community-share-search</form>
+            </forms>
+        </advanced-search>
+    </config>
+
+</alfresco-config>

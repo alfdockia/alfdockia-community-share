@@ -1,0 +1,14 @@
+/*!
+ * SPDX-FileCopyrightText: 2026 AIgen Technologies S.L.
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
+.search .alfdockia-community-share-filters { margin-top: 1em; max-width: 800px; }
+.search .alfdockia-community-share-filters-panel { border-left: 3px solid #5b8db8; margin-top: .75em; padding: .75em 1em; }
+.search .alfdockia-community-share-filters-grid { display: flex; flex-wrap: wrap; gap: 1em; }
+.search .alfdockia-community-share-filter-field { flex: 1 1 280px; }
+.search .alfdockia-community-share-filter-field select { min-height: 8em; width: 100%; }
+.search .alfdockia-community-share-property-row { align-items: center; display: flex; flex-wrap: wrap; gap: .5em; margin-top: .5em; }
+.search .alfdockia-community-share-property-row select:first-child { min-width: 260px; }
+.search .alfdockia-community-share-property-row input { min-width: 180px; }
+.search .alfdockia-community-share-filter-actions { margin-top: .75em; }
+.search .alfdockia-community-share-filter-status { color: #555; margin-top: .5em; }

@@ -1,0 +1,110 @@
+/*!
+ * SPDX-FileCopyrightText: 2026 AIgen Technologies S.L.
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
+.alfdockia-community-share-search-result .selectorCell {
+   width: 42px;
+   vertical-align: top;
+   padding-top: 12px;
+}
+
+.alfdockia-community-share-search-result .thumbnailCell {
+   width: 88px;
+   vertical-align: top;
+   padding-top: 12px;
+}
+
+.alfdockia-community-share-search-result .propertiesCell {
+   vertical-align: top;
+   padding: 10px 8px 16px 0;
+}
+
+.alfdockia-community-share-search-result .nameAndTitleCell {
+   line-height: 1.35;
+}
+
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-name {
+   color: #116cae;
+   font-size: 123.1%;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-name:hover,
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-author:hover,
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-path:hover {
+   text-decoration: underline;
+}
+
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-title,
+.alfdockia-community-share-search-result .descriptionCell,
+.alfdockia-community-share-search-result .dateCell,
+.alfdockia-community-share-search-result .pathCell {
+   color: #666;
+   font-size: 93%;
+}
+
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-author,
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-path {
+   color: #116cae;
+   text-decoration: none;
+}
+
+.alfdockia-community-share-search-result .descriptionCell,
+.alfdockia-community-share-search-result .dateCell,
+.alfdockia-community-share-search-result .pathCell {
+   margin-top: 3px;
+}
+
+.alfdockia-community-share-search-result .alfdockia-community-share-search-result-actions {
+   width: 28px;
+}
+
+.alfdockia-community-share-search-result-icon {
+   width: 54px;
+   height: 70px;
+   position: relative;
+   box-sizing: border-box;
+   border: 5px solid #b6b6b6;
+   background: #fff;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+}
+
+.alfdockia-community-share-search-result-icon.document:before,
+.alfdockia-community-share-search-result-icon.document:after {
+   content: "";
+   position: absolute;
+   left: 11px;
+   right: 8px;
+   height: 5px;
+   background: #a3a3a3;
+}
+
+.alfdockia-community-share-search-result-icon.document:before {
+   top: 24px;
+}
+
+.alfdockia-community-share-search-result-icon.document:after {
+   top: 38px;
+}
+
+.alfdockia-community-share-search-result-icon.folder {
+   height: 44px;
+   margin-top: 10px;
+   border-radius: 2px;
+   background: #f2c65a;
+   border-color: #d4a232;
+}
+
+.alfdockia-community-share-search-result-icon.folder:before {
+   content: "";
+   position: absolute;
+   top: -13px;
+   left: -5px;
+   width: 31px;
+   height: 14px;
+   background: #f2c65a;
+   border: 5px solid #d4a232;
+   border-bottom: 0;
+   box-sizing: border-box;
+}

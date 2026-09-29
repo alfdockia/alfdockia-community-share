@@ -1,0 +1,12 @@
+<!--
+  SPDX-FileCopyrightText: 2026 AIgen Technologies S.L.
+  SPDX-License-Identifier: AGPL-3.0-only
+-->
+<webscript>
+   <shortname>AlfDockia IA-Search Proxy</shortname>
+   <description>Share-side bridge from the Node Browser IA-Search option to the Python AlfDockia semantic search service.</description>
+   <url>/alfdockia-community-share/search?q={q?}&amp;query={query?}&amp;term={term?}&amp;lang={lang?}&amp;skipCount={skipCount?}&amp;maxItems={maxItems?}&amp;maxResults={maxResults?}&amp;filters={filters?}&amp;facetFilters={facetFilters?}&amp;facetFields={facetFields?}&amp;metadataFilters={metadataFilters?}</url>
+   <format default="json">argument</format>
+   <authentication>user</authentication>
+   <lifecycle>internal</lifecycle>
+</webscript>

@@ -1,0 +1,16 @@
+/*!
+ * SPDX-FileCopyrightText: 2026 AIgen Technologies S.L.
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
+/* Make the Node Browser zebra pattern explicit and readable on every theme. */
+.node-browser .yui-dt-data .yui-dt-even td {
+   background-color: #fff;
+}
+
+.node-browser .yui-dt-data .yui-dt-odd td {
+   background-color: #f0f0f0;
+}
+
+.node-browser .yui-dt-data tr:hover td {
+   background-color: #e4f2fb;
+}

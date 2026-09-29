@@ -1,0 +1,12 @@
+<!--
+  SPDX-FileCopyrightText: 2026 AIgen Technologies S.L.
+  SPDX-License-Identifier: AGPL-3.0-only
+-->
+<webscript>
+   <shortname>AlfDockia content dictionary</shortname>
+   <description>Authenticated dynamic Alfresco types, aspects and properties.</description>
+   <url>/alfdockia-community-share/dictionary</url>
+   <format default="json">argument</format>
+   <authentication>user</authentication>
+   <lifecycle>internal</lifecycle>
+</webscript>
